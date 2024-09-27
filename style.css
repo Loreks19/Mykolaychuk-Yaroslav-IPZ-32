@@ -67,6 +67,12 @@ header {
 
 .contact span {
     font-size:16px;
+    
+    color:#000;
+}
+.contact span a{
+    font-size:16px;
+    
     color:#000;
 }
 
@@ -135,6 +141,10 @@ header {
     margin-top: 100px;
     margin-bottom: 100px;
     gap: 30px;
+    
+}
+.advantage h3{
+    line-height: 50px;
 }
 .advantage{
     max-width:275px;
@@ -158,7 +168,7 @@ header {
     padding-top: 60px;
     padding-bottom: 30px;
 }
-.block3{
+.block4{
     background-color:#F5F4FA;
     text-align: center;
 }
@@ -167,32 +177,53 @@ header {
     justify-content: space-between;
     padding-bottom: 60px;
 }
+.member{
+    width: 270px;
+    height: 368px;
+    background-color: white;
+
+}
+.member_info h4{
+    line-height: 30px;
+}   
+.member p{
+    color: #757575;
+    
+}
+.member_info{
+    padding-top: 30px;
+}
 footer{
     background-color: #2F303A;
     padding:50px;
 }
-footer h1{
-    color:#2196F3;
-}
+
 footer span{
     color:white;
 }
 footer p{
     color: white;
 }
-footer h5{
-    
-    color:#FFFFFF99;
-}
 .info{
     padding-bottom: 15px;
+    text-decoration: none;
 
 }
 .info1{
     padding-bottom: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    color:#757575;
 }
-.info2{
-    font-size: 20px;
-    
+.info a{
+    text-decoration: none;
+    color:#2196F3;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 600;
+}
+.info1 a{
+    text-decoration: none;
+    color: #FFFFFF99;
 }
