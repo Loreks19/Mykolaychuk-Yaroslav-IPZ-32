@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body {
-    font-family: Calibri;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     background-color: white;
@@ -24,10 +24,11 @@ header {
     margin: 0 auto;
 }
 .logo {
-    font-family: Calibri;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color:#2196F3;
     font-size: 26px;
+    letter-spacing: 3%;
     
 }
 .logo a{
@@ -36,13 +37,17 @@ header {
     color: #2196F3;
 }
 .logo span{
-    color: #000;
+    color: #212121;
+    font-family: 'Raleway',sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.03em;
 }
 .menu ul{
-    font-family: Calibri;
-    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 550;
     line-height: 0px;
     list-style: none;
+    letter-spacing: 0.02em;
     display: flex;
     gap:50px;
     margin-right: 250px;
@@ -50,7 +55,7 @@ header {
 .menu a{
     text-decoration: none;
     color:#000;
-    font-size: 16px;
+    font-size: 14px;
 }
 .menu a:hover{
     color:#2196F3;
@@ -66,14 +71,14 @@ header {
 }
 
 .contact span {
-    font-size:16px;
-    
-    color:#000;
+    font-size:14px;
+    font-weight: 500;
+    color:#757575;
 }
 .contact span a{
-    font-size:16px;
-    
-    color:#000;
+    font-size:14px;
+    letter-spacing: 0.02em;
+    color:#757575;
 }
 
 .block {
@@ -85,16 +90,16 @@ header {
     flex-direction: column;
 }
 .block h1{
-    color:white;
-    font-family: Calibri;
+    color:#FFFFFF;
+    font-family: 'Roboto',sans-serif;
     font-size: 44px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
 }
 .part{
-    width: 600px;
+    width: 650px;
 }
 .containers{
     max-width: 1200px;
@@ -108,15 +113,19 @@ header {
 }
 .block button{
     
-    color: white;
+    color: #FFFFFF;
     background-color: #2196F3;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 25px;
     border-radius: 4px;
-    font-family: Calibri;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     border:none;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 0.06em;
     margin-top: 20px;
+    text-align: center;
     transition: transform 0.2s;
     box-shadow: 1px 1px 10px -5px black;
 
@@ -145,27 +154,46 @@ header {
 }
 .advantage h3{
     line-height: 50px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size:14px;
+    letter-spacing: 0.03em;
+    color:#212121;
 }
 .advantage{
     max-width:275px;
 }
 .advantage p{
-    font-weight: 100;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color:#757575;
 }
-.text{
+.text h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
     text-align: center;
     font-size: 36px;
+    letter-spacing: 0.03em;
+    padding-bottom: 40px;
 }
 .photo{
     display:flex;
     justify-content: center;
     gap:30px;
-    margin: 60px;
+    margin-bottom: 65px;
 }
 
-.team{
+.team h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
     font-size: 36px;
-    padding-top: 60px;
+    text-align: center;
+    color:#212121;
+    padding-top: 65px;
     padding-bottom: 30px;
 }
 .block4{
@@ -176,26 +204,42 @@ header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 60px;
+    
 }
+
 .member{
     width: 270px;
     height: 368px;
-    background-color: white;
-
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0.1px 1px 1.5px 0.1px #999999;
+    
 }
-.member_info h4{
-    line-height: 30px;
+.member img{
+    border-radius: 4px;
+}
+.member_info h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 35px;
 }   
 .member p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
     color: #757575;
     
 }
 .member_info{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 footer{
     background-color: #2F303A;
     padding:50px;
+    text-decoration: none;
 }
 
 footer span{
@@ -215,6 +259,7 @@ footer p{
     flex-direction: column;
     line-height: 30px;
     color:#757575;
+    
 }
 .info a{
     text-decoration: none;
@@ -225,5 +270,14 @@ footer p{
 }
 .info1 a{
     text-decoration: none;
+    font-size:14px;
+    letter-spacing: 0.03em;
     color: #FFFFFF99;
+}
+.info1 p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    letter-spacing: 0.03em;
+   
 }
