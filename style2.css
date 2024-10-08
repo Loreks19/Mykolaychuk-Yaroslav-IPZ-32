@@ -141,7 +141,7 @@ header {
     width: 372px;
     height: 404px;
     background-color: white;
-    border: 1px solid rgb(236, 233, 233);
+    border: 1px solid lightgray;
 }
 .description{
     padding-top: 30px;
