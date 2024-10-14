@@ -82,7 +82,7 @@ header {
 }
 
 .block {
-    background-color: #2F303A;
+    background-image: linear-gradient(rgba(40, 40, 40, 0.6), rgba(40, 40, 40, 0.6)), url(./images/back-img.jpg);
     min-height: 600px;
     align-items: center;
     display: flex;
@@ -209,7 +209,7 @@ header {
 
 .member{
     width: 270px;
-    height: 368px;
+    height: 428px;
     border-radius: 4px;
     background-color: #FFFFFF;
     box-shadow: 0.1px 1px 1.5px 0.1px #999999;
@@ -280,4 +280,26 @@ footer p{
     font-size:14px;
     letter-spacing: 0.03em;
    
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    padding-bottom: 40px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: 40px;
+}
+.links img{
+    width: 20px;
+    height: 20px;
+}
+.links img:hover { 
+    background-color: #2196F3;
 }
