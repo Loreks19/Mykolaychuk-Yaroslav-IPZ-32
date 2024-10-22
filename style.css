@@ -88,6 +88,8 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 .block h1{
     color:#FFFFFF;
@@ -108,8 +110,10 @@ header {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .press{
-    margin-left: 200px;
+    display: flex;
+    justify-content: center;
 }
 .block button{
     
@@ -128,7 +132,6 @@ header {
     text-align: center;
     transition: transform 0.2s;
     box-shadow: 1px 1px 10px -5px black;
-
 }
 .block button:hover {
     transform: scale(1.1);
@@ -136,7 +139,8 @@ header {
 
 .block2{
     background-color: white;
-
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .advantages{   
     max-width: 1200px;
@@ -147,8 +151,6 @@ header {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 100px;
     gap: 30px;
     
 }
@@ -171,6 +173,9 @@ header {
     letter-spacing: 0.03em;
     color:#757575;
 }
+.block3{
+    padding-bottom:94px;
+}
 .text h2{
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
@@ -183,7 +188,6 @@ header {
     display:flex;
     justify-content: center;
     gap:30px;
-    margin-bottom: 65px;
 }
 
 .team h2{
@@ -193,18 +197,17 @@ header {
     font-size: 36px;
     text-align: center;
     color:#212121;
-    padding-top: 65px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 .block4{
     background-color:#F5F4FA;
     text-align: center;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 .members{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 60px;
-    
 }
 
 .member{
@@ -231,6 +234,7 @@ header {
     font-size: 16px;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-top:10px;
     
 }
 .member_info{

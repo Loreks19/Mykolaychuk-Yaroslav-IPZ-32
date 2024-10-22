@@ -93,7 +93,6 @@ header {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    
 }
 .filter {
     list-style: none;
@@ -101,8 +100,6 @@ header {
     display: flex;
     justify-content: center;
     gap:10px;
-    margin-top: 70px;
-    
 }
 .filter button{
     padding: 10px 20px;
@@ -124,18 +121,15 @@ header {
     color:white;
 }
 .containers{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:20px;
     margin-top:50px;
 }
-.projects{
-    margin-bottom: 100px;
+.section{
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 .project{
     width: 372px;
