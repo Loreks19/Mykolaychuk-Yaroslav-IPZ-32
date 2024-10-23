@@ -43,7 +43,7 @@ header {
 }
 .logo a{
     text-decoration: none;
-    font-size: 24px;
+    font-size: 26px;
     color:var(--primary-blue);
 }
 .logo span{
@@ -81,17 +81,15 @@ header {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-.contact span {
-    font-size:16px;
-    font-weight: 500;
+    font-size: 14px;
 }
 .contact span a{
     font-size:16px;
     letter-spacing: 0.02em;
     color:var(--primary-gray);
     line-height: 1.2;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .block {
@@ -309,6 +307,7 @@ footer p{
     width: 270px;
     height: 120px;
     padding-bottom: 40px;
+
 }
 .links{
     display: flex;
@@ -324,6 +323,13 @@ footer p{
 .links img:hover { 
     background-color:var(--primary-blue);
 }
-.clients h2{
+.clients{
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+.customer_list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
 }

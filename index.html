@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -14,10 +15,10 @@
 
 <header>
     <div class="header-container">
-    <div class="logo">Web <span>Studio</span></div>
+    <div class="logo"><a href="index.html">Web <span>Studio</span></a></div>
     <nav class="menu">
         <ul>
-            <li><a href="#">Студія</a></li>
+            <li><a href="index.html">Студія</a></li>
             <li><a href="portfolio.html">Портфоліо</a></li>
             <li><a href="#">Контакти</a></li>
         </ul>
@@ -156,14 +157,17 @@
     </section>
     <section class="block5">
         <div class="containers">
-        <div class="clients">
-            <h2>Постійні клієнти</h2>
-        </div>
-            <div class="customers">
-                <div class="customer">
-
-                </div>
+            <div class="clients">
+                <h2>Постійні клієнти</h2>
             </div>
+            <ul class="customer_list">
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo2"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo3"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo4"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo5"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo6"></use></svg></a></li>
+            </ul>
         </div>
     </section>
 </main>
