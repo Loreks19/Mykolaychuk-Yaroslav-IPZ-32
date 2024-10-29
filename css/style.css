@@ -28,7 +28,7 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    justify-content:space-between;
+    
     align-items:center;
     margin: 0 auto;
 }
@@ -38,8 +38,8 @@ header {
     color:var(--primary-blue);
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 3%;
-    
+    letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 .logo a{
     text-decoration: none;
@@ -60,7 +60,6 @@ header {
     letter-spacing: 0.02em;
     display: flex;
     gap:50px;
-    margin-right: 250px;
 }
 .menu a{
     text-decoration: none;
@@ -72,6 +71,7 @@ header {
 }
 .contact {
     display: flex;
+    margin-left:auto;
     gap: 40px;
 }
 
@@ -132,6 +132,7 @@ header {
     text-decoration: none;
     padding: 10px 25px;
     border-radius: 4px;
+    display: block;
     font-weight: 700;
     border:none;
     line-height: 1.9;
@@ -139,6 +140,8 @@ header {
     letter-spacing: 0.06em;
     margin-top: 20px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     transition: transform 0.2s;
     box-shadow: 1px 1px 10px -5px black;
 }
@@ -186,7 +189,7 @@ header {
 .block3{
     padding-bottom:94px;
 }
-.text h2{
+h2{
     font-weight: 700;
     text-align: center;
     font-size: 36px;
@@ -221,8 +224,6 @@ header {
 }
 
 .member{
-    width: 270px;
-    height: 428px;
     border-radius: 4px;
     background-color: var(--primary-white);
     box-shadow: 0.1px 1px 1.5px 0.1px #999999;
@@ -247,11 +248,12 @@ header {
     
 }
 .member_info{
-    padding-top: 20px;
+    padding: 30px;
 }
 footer{
     background-color: var(--footer-black);
-    padding:50px;
+    padding-top:60px;
+    padding-bottom:60px;
     text-decoration: none;
 }
 
