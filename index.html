@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@900&display=swap" rel="stylesheet">
     <title>WebStudio</title>
 </head>
 <body>
 
 <header>
     <div class="header-container">
-    <div class="logo">Web<span>Studio</span></div>
+    <div class="logo"><a href="index.html">Web <span>Studio</span></a></div>
     <nav class="menu">
         <ul>
-            <li><a href="#">Студія</a></li>
-            <li><a href="#">Портфоліо</a></li>
+            <li><a href="index.html">Студія</a></li>
+            <li><a href="portfolio.html">Портфоліо</a></li>
             <li><a href="#">Контакти</a></li>
         </ul>
     </nav>
@@ -28,7 +34,7 @@
     <section class="block">
         <div class="containers">
             <div class="part">
-                <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+                <h1>Ефективні рішення для вашого бізнесу</h1>
             </div>
             <div class="press">
                 <button type="button">Замовити послугу</button>
@@ -39,19 +45,31 @@
     <section class="block2">
         <div class="advantages">
             <div class="advantage">
-                <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                <div class="icon">
+                    <img src="./images/antenna.jpg" alt="antenna">
+                </div>
+                <h3>Увага до деталей</h3>
                 <p>Ідейні міркування і навіть початок роботи з формування позиції.</p>
             </div>
             <div class="advantage">
-                <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                <div class="icon">
+                    <img src="./images/clock.jpg" alt="clock">
+                </div>
+                <h3>Пунктуальність</h3>
                 <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. </p>
             </div>
             <div class="advantage">
-                <h3>ПЛАНУВАННЯ</h3>
+                <div class="icon">
+                    <img src="./images/diagram.jpg" alt="diagram">
+                </div>
+                <h3>Планування</h3>
                 <p>Так само консультація з широким активом значною мірою зумовлює.</p>
             </div>
             <div class="advantage">
-                <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <div class="icon">
+                    <img src="./images/astronaut.jpg" alt="astronaut">
+                </div>
+                <h3>Сучасні технології</h3>
                 <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </div>
         </div>
@@ -65,13 +83,13 @@
     
         <div class="photo">
             <div class="container">
-                <img src="./images/box_1.jpg" width="370" height="294" alt="photo">
+                <img src="./images/box_1.jpg" width="370" height="294" alt="Фото">
             </div>
             <div class="container">
-                <img src="./images/box_2.jpg" width="370" height="294" alt="photo">
+                <img src="./images/box_2.jpg" width="370" height="294" alt="Фото">
             </div>
             <div class="container">
-                <img src="./images/box_3.jpg" width="370" height="294" alt="photo">
+                <img src="./images/box_3.jpg" width="370" height="294" alt="Фото">
             </div>
         </div>
         </div>
@@ -89,6 +107,14 @@
                     <h3>Ігор Дем'яненко</h3>
                     <p>Product Designer</p>
                 </div>
+
+                <div class="links">
+                    <img src="./images/icons/instagram.svg" alt="instagram">
+                    <img src="./images/icons/twitter.svg" alt="twitter">
+                    <img src="./images/icons/facebook.svg" alt="facebook">
+                    <img src="./images/icons/linkedin.svg" alt="linkedin">
+                </div>
+
             </div>
             <div class="member">
                 <img src="./images/team_card_2.jpg" width="270" height="260" alt="Ольга Рєпіна">
@@ -96,6 +122,14 @@
                     <h3>Ольга Рєпіна</h3>
                     <p>Frontend Developer</p>
                 </div>
+
+                <div class="links">
+                    <img src="./images/icons/instagram.svg" alt="instagram">
+                    <img src="./images/icons/twitter.svg" alt="twitter">
+                    <img src="./images/icons/facebook.svg" alt="facebook">
+                    <img src="./images/icons/linkedin.svg" alt="linkedin">
+                </div>
+
             </div>
             <div class="member">
                 <img src="./images/team_card_3.jpg" width="270" height="260" alt="Микола Тарасов">
@@ -103,6 +137,14 @@
                     <h3>Микола Тарасов</h3>
                     <p>Marketing</p>
                 </div>
+
+                <div class="links">
+                    <img src="./images/icons/instagram.svg" alt="instagram">
+                    <img src="./images/icons/twitter.svg" alt="twitter">
+                    <img src="./images/icons/facebook.svg" alt="facebook">
+                    <img src="./images/icons/linkedin.svg" alt="linkedin">
+                </div>
+
             </div>
             <div class="member">
                 <img src="./images/team_card_4.jpg" width="270" height="260" alt="Михайло Єрмаков">
@@ -110,15 +152,42 @@
                     <h3>Михайло Єрмаков</h3>
                     <p>UI Designer</p>
                 </div>
+
+                <div class="links">
+                    <img src="./images/icons/instagram.svg" alt="instagram">
+                    <img src="./images/icons/twitter.svg" alt="twitter">
+                    <img src="./images/icons/facebook.svg" alt="facebook">
+                    <img src="./images/icons/linkedin.svg" alt="linkedin">
+                </div>
+
             </div>
         </div>
         </div>
     </section>
+
+    <section class="block5">
+        <div class="containers">
+            <div class="clients">
+                <h2>Постійні клієнти</h2>
+            </div>
+            <ul class="customer_list">
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo2"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo3"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo4"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo5"></use></svg></a></li>
+                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo6"></use></svg></a></li>
+            </ul>
+        </div>
+    </section>
+
 </main>
 <footer>
     <div class="containers">
         <div class="info">
-            <a href="#">Web<span>Studio</span></a>
+
+            <a href="index.html">Web <span>Studio</span></a>
+
         </div>
         <address class="info1">
             <p>м. Київ, пр-т Лесі Українки, 26</p>
