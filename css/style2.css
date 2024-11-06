@@ -21,7 +21,6 @@ header {
     padding: 20px;
     border-bottom: 1px solid  #ECECEC;
 }
-
 .header-container {
     max-width: 1200px;
     margin-left: auto;
@@ -29,27 +28,25 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    justify-content:space-between;
     align-items:center;
     margin: 0 auto;
-
 }
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    color: var(--primary-blue);
+    color:var(--primary-blue);
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 3%;
-    
+    letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 .logo a{
     text-decoration: none;
     font-size: 26px;
-    color: var(--primary-blue);
+    color:var(--primary-blue);
 }
 .logo span{
-    color:var(--primary-black);
+    color: var(--primary-black);
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -62,7 +59,6 @@ header {
     letter-spacing: 0.02em;
     display: flex;
     gap:50px;
-    margin-right: 250px;
 }
 .menu a{
     text-decoration: none;
@@ -70,27 +66,36 @@ header {
     font-size: 14px;
 }
 .menu a:hover{
-    color: var(--primary-blue);
+    color:var(--primary-blue);
 }
 .contact {
     display: flex;
+    margin-left:auto;
     gap: 40px;
 }
 
 .contact a{
+    display: flex;
+    align-items: center;
+    gap:5px;
     text-decoration: none;
     color:var(--primary-gray);
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-size: 14px;
+    transition: color 0.3s ease, color 0.3s ease;
+}
+.contact a:hover{
+    color:var(--primary-blue);
 }
 .contact span a{
-    font-size: 14px;
+    font-size:16px;
     letter-spacing: 0.02em;
     color:var(--primary-gray);
     line-height: 1.2;
     font-weight: 500;
+    font-size: 14px;
 }
 .container{
     max-width: 1200px;
@@ -107,7 +112,7 @@ header {
     gap:10px;
 }
 .filter button{
-    padding: 10px 20px;
+    padding: 6px 22px;
     border: none;
     background-color:var(--block4-gray);
     color:var(--primary-black);
@@ -119,6 +124,7 @@ header {
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
     
 }
 .filter button:hover{
@@ -138,9 +144,12 @@ header {
 }
 .project{
     width: 370px;
-    height: 403px;
+    height: 404px;
     background-color: var(--simple-white);
-    border: 0.5px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+.project:hover{
+    box-shadow: 1px 1px 10px -5px black;
 }
 .description{
     padding-top: 15px;
