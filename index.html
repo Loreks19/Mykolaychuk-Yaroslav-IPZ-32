@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="./svgxuse.js"></script>
     <title>WebStudio</title>
 </head>
 <body>
@@ -25,8 +26,20 @@
         </ul>
     </nav>
     <div class="contact">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <span><a href="tel:+380961111111">+38 096 111 11 11</a></span>
+        <a href="mailto:info@devstudio.com">
+            <svg class="info-icons" width="16" height="12">
+                <use href="./images/icons/info-defs.svg#icon-envelope"></use>
+            </svg>
+            <p>info@devstudio.com</p>
+        </a>
+        <span>
+            <a href="tel:+380961111111">
+                <svg class="info-icons" width="10" height="16">
+                    <use href="./images/icons/info-defs.svg#icon-smartphone"></use>
+                </svg>
+                <p>+38 096 111 11 11</p>
+            </a>
+        </span>
     </div>
     </div>
 </header>
@@ -43,29 +56,37 @@
     <section class="block2">
         <div class="advantages">
             <div class="advantage">
-                <div class="icon">
-                    <img src="./images/antenna.jpg" alt="antenna">
+                <div class="element">
+                    <svg class="advantages-icon" width="70" height="70">
+                        <use href="./images/icons/symbol-defs.svg#antenna"></use>
+                    </svg>
                 </div>
                 <h3>Увага до деталей</h3>
                 <p>Ідейні міркування і навіть початок роботи з формування позиції.</p>
             </div>
             <div class="advantage">
-                <div class="icon">
-                    <img src="./images/clock.jpg" alt="clock">
+                <div class="element">
+                    <svg class="advantages-icon" width="70" height="70">
+                        <use href="./images/icons/symbol-defs.svg#clock"></use>
+                    </svg>
                 </div>
                 <h3>Пунктуальність</h3>
                 <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. </p>
             </div>
             <div class="advantage">
-                <div class="icon">
-                    <img src="./images/diagram.jpg" alt="diagram">
+                <div class="element">
+                    <svg class="advantages-icon" width="70" height="70">
+                        <use href="./images/icons/symbol-defs.svg#diagram"></use>
+                    </svg>
                 </div>
                 <h3>Планування</h3>
                 <p>Так само консультація з широким активом значною мірою зумовлює.</p>
             </div>
             <div class="advantage">
-                <div class="icon">
-                    <img src="./images/astronaut.jpg" alt="astronaut">
+                <div class="element">
+                    <svg class="advantages-icon" width="70" height="70">
+                        <use href="./images/icons/symbol-defs.svg#astronaut"></use>
+                    </svg>
                 </div>
                 <h3>Сучасні технології</h3>
                 <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
@@ -92,9 +113,7 @@
 
     <section class="block4">
         <div class="containers">
-        <div class="team">
             <h2>Наша команда</h2>
-        </div>
         <div class="members">
             <div class="member">
                 <img src="./images/team_card_1.jpg" width="270" height="260" alt="Ігор Дем'яненко">
@@ -102,10 +121,26 @@
                     <h3>Ігор Дем'яненко</h3>
                     <p>Product Designer</p>
                     <div class="links">
-                        <img src="./images/icons/instagram.svg" alt="instagram">
-                        <img src="./images/icons/twitter.svg" alt="twitter">
-                        <img src="./images/icons/facebook.svg" alt="facebook">
-                        <img src="./images/icons/linkedin.svg" alt="linkedin">
+                        <a href="#"class="social-links">
+                            <svg class="social-icons" >
+                                <use href="./images/icons/symbol-defs1.svg#icon-instagram-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -117,10 +152,26 @@
                     <h3>Ольга Рєпіна</h3>
                     <p>Frontend Developer</p>
                     <div class="links">
-                        <img src="./images/icons/instagram.svg" alt="instagram">
-                        <img src="./images/icons/twitter.svg" alt="twitter">
-                        <img src="./images/icons/facebook.svg" alt="facebook">
-                        <img src="./images/icons/linkedin.svg" alt="linkedin">
+                        <a href="#" class="social-links">
+                            <svg class="social-icons" >
+                                <use href="./images/icons/symbol-defs1.svg#icon-instagram-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -132,10 +183,26 @@
                     <h3>Микола Тарасов</h3>
                     <p>Marketing</p>
                     <div class="links">
-                        <img src="./images/icons/instagram.svg" alt="instagram">
-                        <img src="./images/icons/twitter.svg" alt="twitter">
-                        <img src="./images/icons/facebook.svg" alt="facebook">
-                        <img src="./images/icons/linkedin.svg" alt="linkedin">
+                        <a href="#" class="social-links">
+                            <svg class="social-icons" >
+                                <use href="./images/icons/symbol-defs1.svg#icon-instagram-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -147,10 +214,26 @@
                     <h3>Михайло Єрмаков</h3>
                     <p>UI Designer</p>
                     <div class="links">
-                        <img src="./images/icons/instagram.svg" alt="instagram">
-                        <img src="./images/icons/twitter.svg" alt="twitter">
-                        <img src="./images/icons/facebook.svg" alt="facebook">
-                        <img src="./images/icons/linkedin.svg" alt="linkedin">
+                        <a href="#" class="social-links">
+                            <svg class="social-icons" >
+                                <use href="./images/icons/symbol-defs1.svg#icon-instagram-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-links">
+                            <svg class="social-icons">
+                                <use href="./images/icons/symbol-defs1.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -162,16 +245,26 @@
 <!-- llllll -->
     <section class="block5">
         <div class="containers">
-            <div class="clients">
                 <h2>Постійні клієнти</h2>
-            </div>
             <ul class="customer_list">
-                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo"></use></svg></a></li>
-                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo2"></use></svg></a></li>
-                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo3"></use></svg></a></li>
-                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo4"></use></svg></a></li>
-                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo5"></use></svg></a></li>
-                <li class="customer_item"><a class="customer_link"><svg class="customer_logo" width="106" height="60"> <use href="./images/icons/Logo.svg#Logo6"></use></svg></a></li>
+                <li class="customer_item">
+                    <svg class="customer_logo" width="106" height="60"> <use href="./images/icons/symbol-defs.svg#icon-Logo-6"></use></svg>
+                </li>
+                <li class="customer_item">
+                    <svg class="customer_logo" width="106" height="60"> <use href="./images/icons/symbol-defs.svg#icon-Logo-5"></use></svg>
+                </li>
+                <li class="customer_item">
+                    <svg class="customer_logo" width="106" height="60"> <use href="./images/icons/symbol-defs.svg#icon-Logo-4"></use></svg>
+                </li>
+                <li class="customer_item">
+                    <svg class="customer_logo" width="106" height="60"> <use href="./images/icons/symbol-defs.svg#icon-Logo-3"></use></svg>
+                </li>
+                <li class="customer_item">
+                    <svg class="customer_logo" width="106" height="60"> <use href="./images/icons/symbol-defs.svg#icon-Logo-2"></use></svg>
+                </li>
+                <li class="customer_item">
+                    <svg class="customer_logo" width="106" height="60"> <use href="./images/icons/symbol-defs.svg#icon-Logo-1"></use></svg>
+                </li>
             </ul>
         </div>
     </section>
@@ -179,17 +272,43 @@
 </main>
 <footer>
     <div class="containers">
-        <div class="info">
-
-            <a href="index.html">Web <span>Studio</span></a>
-
+        <div class="footer-box">
+            <div class="footer-container">
+                <div class="info">
+                    <a href="index.html">Web <span>Studio</span></a>
+                </div>
+                <address class="info1">
+                    <p>м. Київ, пр-т Лесі Українки, 26</p>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <span><a href="tel:+380961111111">+38 096 111 11 11</a></span>
+                </address>
+            </div>
+            <div class="footer-icons">
+                <p>Приєднуйтесь</p>
+                <div class="links-footer">
+                    <a href="#" class="footer-links">
+                        <svg class="social-icons" >
+                            <use href="./images/icons/symbol-defs1.svg#icon-instagram-1"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer-links">
+                        <svg class="social-icons">
+                            <use href="./images/icons/symbol-defs1.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer-links">
+                        <svg class="social-icons">
+                            <use href="./images/icons/symbol-defs1.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer-links">
+                        <svg class="social-icons">
+                            <use href="./images/icons/symbol-defs1.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
-        <address class="info1">
-            <p>м. Київ, пр-т Лесі Українки, 26</p>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <span><a href="tel:+380961111111">+38 096 111 11 11</a></span>
-        </address>
-        
     </div>
 </footer>
 </body>
