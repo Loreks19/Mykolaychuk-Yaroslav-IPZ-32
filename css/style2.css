@@ -148,6 +148,9 @@ header {
     background-color: var(--simple-white);
     border: 1px solid #EEEEEE;
 }
+.project img{
+    width: 100%;
+}
 .project:hover{
     box-shadow: 1px 1px 10px -5px black;
 }
@@ -184,13 +187,12 @@ footer p{
     color: var(--simple-white);
 }
 .info{
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     text-decoration: none;
 
 }
 .info1{
     font-style:normal;
-    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     color:var(--primary-gray);
@@ -212,24 +214,28 @@ footer p{
     line-height: 1.1;
     color: #FFFFFF99;
     font-weight: 400;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.info1 a:hover{
+    color:var(--primary-blue);
+    transition: color 0.3s ease, color 0.3s ease;
 }
 .info1 p{
     font-weight: 400;
     font-size:14px;
     letter-spacing: 0.03em;
     line-height: 1.1;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
-.footer{
-    width: 500px;
+.footer-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap:93px;
+    align-items: baseline;
 }
 .footer-icons{
     display: flex;
     flex-direction: column;
-    gap:10px;
 }
 .footer-icons p{
     text-transform: uppercase;
@@ -238,6 +244,7 @@ footer p{
     font-size:14px;
     letter-spacing: 0.03em;
     line-height: 1.2;
+    margin-bottom: 20px;
 }
 .links-footer{
     display: flex;
