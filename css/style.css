@@ -416,3 +416,23 @@ footer p{
     background-color:var(--primary-blue);
     color:var(--primary-white);
 }
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, .8);
+
+}
+.overlay-text p{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size:14px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    line-height: 1.1;
+}
+.container {
+    position: relative;
+}
